@@ -1,0 +1,40 @@
+{
+  "media": [
+    {
+      "title": "image one",
+      "name": "./img/g1.jpeg",
+      "profile": "corgui",
+      "likes": "96"
+    },
+    {
+      "title": "image two",
+      "name": "./img/g2.jpeg",
+      "profile": "doctorTocino",
+      "likes": "499"
+    },
+    {
+      "title": "image three",
+      "name": "./img/g3.jpeg",
+      "profile": "sebastian",
+      "likes": "385"
+    },
+    {
+      "title": "image for",
+      "name": "./img/g4.jpeg",
+      "profile": "dollie",
+      "likes": "1230"
+    },
+    {
+      "title": "image five",
+      "name": "./img/g5.jpeg",
+      "profile": "bruce",
+      "likes": "253"
+    },
+    {
+      "title": "image six",
+      "name": "./img/g6.jpeg",
+      "profile": "mumble",
+      "likes": "189"
+    }
+  ]
+}
