@@ -49,7 +49,7 @@ const loadProfile = data => {
 
     containerProfile
       .appendChild(img.cloneNode(true))
-      .setAttribute("class", "history__img");
+      .setAttribute("class", "gallery__profile");
 
     containerProfile.appendChild(
       profile.appendChild(document.createTextNode(post[i].profile))
