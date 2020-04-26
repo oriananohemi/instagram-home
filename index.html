@@ -9,7 +9,10 @@
   </head>
   <body>
     <header class="header">
-      <img class="header__logo" src="./img/logo.png" alt="" />
+      <div class="header__logoContainer">
+        <img class="header__logoIcon" src="./img/instagram.svg" alt="">
+        <img class="header__logo" src="./img/logo.png" alt="" />
+      </div>
       <div class="header__icon">
         <svg
           aria-label="Home"
@@ -37,6 +40,15 @@
             fill-rule="evenodd"
           ></path>
         </svg>
+        <svg 
+        aria-label="Activity Feed" 
+        class="header__icon--separation" 
+        fill="#262626" 
+        height="22" 
+        viewBox="0 0 48 48" 
+        width="22"
+        >
+        <path d="M41 10c-2.2-2.1-4.8-3.5-10.4-3.5h-3.3L30.5 3c.6-.6.5-1.6-.1-2.1-.6-.6-1.6-.5-2.1.1L24 5.6 19.7 1c-.6-.6-1.5-.6-2.1-.1-.6.6-.7 1.5-.1 2.1l3.2 3.5h-3.3C11.8 6.5 9.2 7.9 7 10c-2.1 2.2-3.5 4.8-3.5 10.4v13.1c0 5.7 1.4 8.3 3.5 10.5 2.2 2.1 4.8 3.5 10.4 3.5h13.1c5.7 0 8.3-1.4 10.5-3.5 2.1-2.2 3.5-4.8 3.5-10.4V20.5c0-5.7-1.4-8.3-3.5-10.5zm.5 23.6c0 5.2-1.3 7-2.6 8.3-1.4 1.3-3.2 2.6-8.4 2.6H17.4c-5.2 0-7-1.3-8.3-2.6-1.3-1.4-2.6-3.2-2.6-8.4v-13c0-5.2 1.3-7 2.6-8.3 1.4-1.3 3.2-2.6 8.4-2.6h13.1c5.2 0 7 1.3 8.3 2.6 1.3 1.4 2.6 3.2 2.6 8.4v13zM34.6 25l-9.1 2.8v-3.7c0-.5-.2-.9-.6-1.2-.4-.3-.9-.4-1.3-.2l-11.1 3.4c-.8.2-1.2 1.1-1 1.9.2.8 1.1 1.2 1.9 1l9.1-2.8v3.7c0 .5.2.9.6 1.2.3.2.6.3.9.3.1 0 .3 0 .4-.1l11.1-3.4c.8-.2 1.2-1.1 1-1.9s-1.1-1.2-1.9-1z"></path></svg>
         <svg
           aria-label="Activity Feed"
           class="header__icon--separation"
@@ -72,38 +84,52 @@
     <div class="container">
       <div class="history">
         <div class="history__user">
-          <img class="history__img" src="./img/profile.jpeg" alt="" />
+          <div>
+            <img class="history__img" src="./img/profile.jpeg" alt="" />
+          </div>
           <h2 class="history__username">Your history</h2>
         </div>
         <div class="history__user">
-          <img class="history__img" src="./img/c.jpeg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/c.jpeg" alt="" />
+          </div>
           <h2 class="history__username">Pascal</h2>
         </div>
         <div class="history__user">
-          <img class="history__img" src="./img/cow.jpg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/cow.jpg" alt="" />
+          </div>
           <h2 class="history__username">Maggie</h2>
         </div>
         <div class="history__user">
-          <img class="history__img" src="./img/d.jpeg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/d.jpeg" alt="" />
+          </div>
           <h2 class="history__username">Bruno</h2>
-        </div>
+        </div >
         <div class="history__user">
-          <img class="history__img" src="./img/del.jpeg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/del.jpeg" alt="" />
+          </div>
           <h2 class="history__username">Winter</h2>
         </div>
         <div class="history__user">
-          <img class="history__img" src="./img/hourse.jpg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/hourse.jpg" alt="" />
+          </div>
           <h2 class="history__username">Spirit</h2>
         </div>
         <div class="history__user">
-          <img class="history__img" src="./img/lion.jpeg" alt="" />
+          <div class="history__imgContainer">
+            <img class="history__img" src="./img/lion.jpeg" alt="" />
+          </div>
           <h2 class="history__username">Simba</h2>
         </div>
         <div class="history__user">
-          <div>
+          <div class="history__imgContainer">
             <img class="history__img" src="./img/parr.jpeg" alt="" />
-            <h2 class="history__username">Scarlet</h2>
           </div>
+            <h2 class="history__username">Scarlet</h2>
         </div>
       </div>
       <div class="gallery" id="gallery">
