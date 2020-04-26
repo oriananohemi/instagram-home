@@ -126,16 +126,16 @@ body {
     justify-content: center;
   }
 
+  .gallery__img {
+    width: 500px;
+  }
+
   .header__icon--separation {
     margin: 0 10px;
   }
 
   .history div:nth-of-type(even) {
     display: block;
-  }
-
-  .gallery__img {
-    width: 500px;
   }
 }
 
@@ -158,9 +158,10 @@ body {
   }
 
   .gallery__img {
-    width: 100%;
-    height: 100%;
+    height: 300px;
+    width: 350px;
   }
+
 }
 
 @media (min-width: 1020px) {
