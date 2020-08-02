@@ -139,7 +139,7 @@ body {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 880px) {
   .container {
     width: 80%;
   }
@@ -164,7 +164,7 @@ body {
 
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 1260px) {
   .container {
     width: 70%;
   }
